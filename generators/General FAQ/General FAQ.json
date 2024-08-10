@@ -1,0 +1,13 @@
+{
+  "name": "d26ce981-a320-4dfe-b5c2-2554bc4726b6",
+  "displayName": "General FAQ",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 521,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

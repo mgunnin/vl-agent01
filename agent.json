@@ -1,0 +1,46 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Chicago",
+  "enableLogging": true,
+  "projectNumber": 132963915465,
+  "speechToTextSettings": {
+  
+  },
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableInteractionLogging": true
+    }
+  },
+  "dataResidencyOption": "DATA_RESIDENCY_IN_USE_COMPLIANT",
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+  
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/132963915465/locations/us/collections/default_collection/engines/2cc91f34-00d4-46c6-bc97-43ecae2b53b7"
+  },
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+  
+  },
+  "startPlaybook": "Default Generative Agent",
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}

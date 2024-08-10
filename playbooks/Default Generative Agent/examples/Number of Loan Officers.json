@@ -1,0 +1,185 @@
+{
+  "name": "25353c6f-cf0a-4a12-bf88-8c631fd5ce38",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Hi there! I'm here to help you find the best loan officer for your needs. How can I assist you today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Who is the loan officer with NMLS ID 7021066?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/esports-one/locations/us/agents/2cc91f34-00d4-46c6-bc97-43ecae2b53b7/tools/99252ac0-e446-434a-bd7d-8aa6e36f79a0",
+      "action": "Loan Officers",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "",
+          "tool_call": {
+            "function": {
+              "arguments": {
+                "column": "nmls",
+                "file": "loan_officers.csv",
+                "value": "7021066"
+              },
+              "name": "lookup"
+            },
+            "tool_id": "csv_lookup"
+          }
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "output": {
+            "average_loan_cash_value": "247883",
+            "builder_units": "24",
+            "company": "Hoppe-Schaden",
+            "conventional_loan_units": "87",
+            "fha_units": "21",
+            "government_units": "29",
+            "id": "3",
+            "jumbo_loan_units": "33",
+            "lmi_units": "28",
+            "name": "Hisako Jacobson",
+            "nmls": "7021066",
+            "sales_volume": "57756739",
+            "total_units": "233",
+            "va_units": "11"
+          }
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "",
+          "tool_call": {
+            "function": {
+              "arguments": {
+                "column": "nmls",
+                "file": "loan_officers.csv",
+                "value": "7021066"
+              },
+              "name": "lookup"
+            },
+            "tool_id": "csv_lookup"
+          }
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "output": {
+            "average_loan_cash_value": "247883",
+            "builder_units": "24",
+            "company": "Hoppe-Schaden",
+            "conventional_loan_units": "87",
+            "fha_units": "21",
+            "government_units": "29",
+            "id": "3",
+            "jumbo_loan_units": "33",
+            "lmi_units": "28",
+            "name": "Hisako Jacobson",
+            "nmls": "7021066",
+            "sales_volume": "57756739",
+            "total_units": "233",
+            "va_units": "11"
+          }
+        }
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I see you're interested in Hisako Jacobson. She has sold a total of 233 units with a sales volume of $57,756,739. Her average loan cash value is $247,883. Would you like to know more about her?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "What's the average loan cash value for Lincoln Heaney?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/esports-one/locations/us/agents/2cc91f34-00d4-46c6-bc97-43ecae2b53b7/tools/99252ac0-e446-434a-bd7d-8aa6e36f79a0",
+      "action": "Loan Officers",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "",
+          "tool_call": {
+            "function": {
+              "arguments": {
+                "column": "name",
+                "file": "loan_officers.csv",
+                "value": "Lincoln Heaney"
+              },
+              "name": "lookup"
+            },
+            "tool_id": "csv_lookup"
+          }
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "output": {
+            "average_loan_cash_value": "139996",
+            "builder_units": "28",
+            "company": "Brown, Yost and Kohler",
+            "conventional_loan_units": "34",
+            "fha_units": "40",
+            "government_units": "23",
+            "id": "8",
+            "jumbo_loan_units": "45",
+            "lmi_units": "39",
+            "name": "Lincoln Heaney",
+            "nmls": "7097913",
+            "sales_volume": "30519128",
+            "total_units": "218",
+            "va_units": "9"
+          }
+        }
+      } ],
+      "inputActionParameters": {
+        "requestBody": {
+          "query": "",
+          "tool_call": {
+            "function": {
+              "arguments": {
+                "column": "name",
+                "file": "loan_officers.csv",
+                "value": "Lincoln Heaney"
+              },
+              "name": "lookup"
+            },
+            "tool_id": "csv_lookup"
+          }
+        }
+      },
+      "outputActionParameters": {
+        "200": {
+          "output": {
+            "average_loan_cash_value": "139996",
+            "builder_units": "28",
+            "company": "Brown, Yost and Kohler",
+            "conventional_loan_units": "34",
+            "fha_units": "40",
+            "government_units": "23",
+            "id": "8",
+            "jumbo_loan_units": "45",
+            "lmi_units": "39",
+            "name": "Lincoln Heaney",
+            "nmls": "7097913",
+            "sales_volume": "30519128",
+            "total_units": "218",
+            "va_units": "9"
+          }
+        }
+      }
+    }
+  } ],
+  "playbookOutput": {
+    "executionSummary": "{\n  \"answer\": \"Here's how many units the top loan officers sold....\",\n  \"snippets\": [\n    {\n      \"title\": \"Karly Abernathy\",\n      \"text\": \"275 Units\"\n    }\n  ]\n}"
+  },
+  "displayName": "Number of Loan Officers",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "undetected"
+}

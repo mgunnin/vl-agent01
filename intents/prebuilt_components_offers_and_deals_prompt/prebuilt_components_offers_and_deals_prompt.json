@@ -1,0 +1,7 @@
+{
+  "name": "af8da916-0a82-4baa-b106-c92985408a09",
+  "displayName": "prebuilt_components_offers_and_deals_prompt",
+  "priority": 500000,
+  "skipAutoAnnotation": true,
+  "numTrainingPhrases": 77
+}

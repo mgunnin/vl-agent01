@@ -1,0 +1,10 @@
+{
+  "name": "0a1a1081-858e-49a2-b313-2cea4b007205",
+  "displayName": "prebuilt_components_start_over",
+  "parameters": [ {
+    "id": "ordinal",
+    "entityType": "@sys.ordinal"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 29
+}

@@ -1,0 +1,17 @@
+{
+  "name": "c4be198b-4dde-42a9-a0a2-d3dc0c4e7f34",
+  "displayName": "Offers and deals details",
+  "placeholders": [ {
+    "id": "offers_database",
+    "name": "offers_database"
+  } ],
+  "modelParameter": {
+    "temperature": 0.30000001,
+    "maxDecodeSteps": 514,
+    "topP": 1,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}
